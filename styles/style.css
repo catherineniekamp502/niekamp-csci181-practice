@@ -8,7 +8,6 @@ body {
   color: #222;
 }
 
-
 /* Headers and navigation styling */
 
 #page-header {
@@ -36,7 +35,6 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
 
 /* Hero insert */
 
@@ -66,10 +64,12 @@ nav a:hover {
   background-color: #56be3e;
 }
 
-
 /* Resume page styling */
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-top: 30px;
 }
 
@@ -87,4 +87,30 @@ main a {
 
 main {
   padding: 15px;
+}
+
+/* Contact page Styling */
+
+.course-table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.course-table th {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+  padding: 8px;
+}
+
+.course-table td {
+  padding: 8px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.course-table tr:last-child td {
+  border-bottom: none;
 }

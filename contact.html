@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Catherine Niekamp</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <header id="page-header">
+      <img
+        src="./images/logo.png"
+        width="100px"
+        height="100px"
+        alt="Logo for personal portfolio"
+      />
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contact Me</h1>
+
+      <!-- Contact form -->
+      <section>
+        <form>
+          <label for="name">First Name</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Your Email</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- Coursework table -->
+
+      <section>
+        <h2>Relevant Coursework</h2>
+
+        <table class="course-table">
+          <thead>
+            <tr>
+              <th scope="col"> Course Name</th>
+              <th scope="col"> Description </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Web Design & Programming</td>
+              <td>Learning HTML and CSS with the best practices.</td>
+            </tr>
+
+            <tr>
+              <td>Real time data Analytics</td>
+              <td>
+                Studying how data can be visualized and used to tell a story.
+              </td>
+            </tr>
+
+            <tr>
+              <td>Intro to Computer Science</td>
+              <td>Used basic programming logic and algorithms.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
